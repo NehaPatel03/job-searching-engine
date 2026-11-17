@@ -28,12 +28,6 @@ A hybrid semantic search and resume-to-job matching engine built with **FastAPI*
   (Matched vs. Missing Skills verified)
 ```
 
-## Dataset Notice
-> [!NOTE]
-> The default starter dataset for this project is synthetically generated via `scripts/make_synthetic_jobs.py` (procedural + Gemini API) across 8 major tech engineering and product domains. If a real dataset (such as LinkedIn job postings from Kaggle) is provided at `data/raw/jobs.csv`, the ingestion pipeline seamlessly cleans, maps, and indexes it instead.
-
----
-
 ## Step 1: Setup & Initialization Guide
 
 ### 1. Create Python Virtual Environment
